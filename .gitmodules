@@ -1,0 +1,3 @@
+[submodule "com/CppCfg"]
+	path = com/CppCfg
+	url = https://github.com/yiliangwu880/CppCfg.git
