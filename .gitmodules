@@ -1,3 +1,12 @@
 [submodule "com/CppCfg"]
 	path = com/CppCfg
 	url = https://github.com/yiliangwu880/CppCfg.git
+[submodule "com/msg_forward"]
+	path = com/msg_forward
+	url = https://github.com/yiliangwu880/msg_forward.git
+[submodule "com/svr_util"]
+	path = com/svr_util
+	url = https://github.com/yiliangwu880/svr_util.git
+[submodule "com/libevent_cpp"]
+	path = com/libevent_cpp
+	url = https://github.com/yiliangwu880/libevent_cpp.git
