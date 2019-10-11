@@ -1,6 +1,3 @@
-[submodule "com/CppCfg"]
-	path = com/CppCfg
-	url = https://github.com/yiliangwu880/CppCfg.git
 [submodule "com/msg_forward"]
 	path = com/msg_forward
 	url = https://github.com/yiliangwu880/msg_forward.git
