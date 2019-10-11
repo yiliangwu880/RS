@@ -10,3 +10,6 @@
 [submodule "com/libevent_cpp"]
 	path = com/libevent_cpp
 	url = https://github.com/yiliangwu880/libevent_cpp.git
+[submodule "com/cpp_cfg"]
+	path = com/cpp_cfg
+	url = https://github.com/yiliangwu880/cpp_cfg.git

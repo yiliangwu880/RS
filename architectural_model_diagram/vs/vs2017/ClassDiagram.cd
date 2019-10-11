@@ -8,28 +8,36 @@
     </TypeIdentifier>
   </Class>
   <Class Name="mf_driver" Collapsed="true">
-    <Position X="1" Y="3.75" Width="1.5" />
+    <Position X="1" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="mf_proto" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="2.798" />
+        <Point X="4" Y="3.771" />
+        <Point X="1.75" Y="3.771" />
+        <Point X="1.75" Y="4.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="mf_proto" Collapsed="true">
-    <Position X="3.75" Y="4.5" Width="1.5" />
+    <Position X="3.25" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="mf_svr" Collapsed="true">
-    <Position X="1" Y="5.75" Width="1.5" />
+    <Position X="3.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="svr_util" Collapsed="true">
-    <Position X="6" Y="4.5" Width="1.5" />
+    <Position X="5.75" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
