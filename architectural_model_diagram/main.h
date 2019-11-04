@@ -28,16 +28,20 @@ class lua_mgr
 
 };
 
+class acc_proto
+{
 
-//access sever
-class acc_svr : public libevent_cpp, public svr_util
+};
+
+//access_svr
+class access_svr : public libevent_cpp, public svr_util, public acc_proto
 {
 
 };
 
 //业务服务器接入网关驱动
-//access connect driver
-class acc_con_dev : public libevent_cpp, public svr_util
+//access connect driver  
+class acc_driver : public libevent_cpp, public svr_util, public acc_proto
 {
 
 };
