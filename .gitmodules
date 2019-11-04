@@ -10,3 +10,6 @@
 [submodule "com/cpp_cfg"]
 	path = com/cpp_cfg
 	url = https://github.com/yiliangwu880/cpp_cfg.git
+[submodule "com/access_svr"]
+	path = com/access_svr
+	url = https://github.com/yiliangwu880/access_svr.git
