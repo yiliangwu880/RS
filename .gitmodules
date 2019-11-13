@@ -13,3 +13,6 @@
 [submodule "com/access_svr"]
 	path = com/access_svr
 	url = https://github.com/yiliangwu880/access_svr.git
+[submodule "com/dbproxy"]
+	path = com/dbproxy
+	url = https://github.com/yiliangwu880/dbproxy.git
