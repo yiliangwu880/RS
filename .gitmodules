@@ -16,3 +16,9 @@
 [submodule "com/dbproxy"]
 	path = com/dbproxy
 	url = https://github.com/yiliangwu880/dbproxy.git
+[submodule "com/simple_web_svr"]
+	path = com/simple_web_svr
+	url = https://github.com/yiliangwu880/simple_web_svr.git
+[submodule "com/cpp_lua_mgr"]
+	path = com/cpp_lua_mgr
+	url = https://github.com/yiliangwu880/cpp_lua_mgr.git
