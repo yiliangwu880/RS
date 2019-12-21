@@ -1,5 +1,8 @@
 
 
+CppUtility全部搬运到 svr_util, 和app_util
+
+app_util : public svr_util, libcevent_cpp, acc_driver, mf_driver
 
 每个组件，性能测试。
 

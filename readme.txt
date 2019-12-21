@@ -17,3 +17,8 @@
 目录结构：
 		architectural_model_diagram == 所有组件的依赖关系，用C++类来描述
 		com   == 所有组件
+		
+
+
+下面是使用整套组件的演示架构：
+	git@github.com:yiliangwu880/game_svr_demo.git
