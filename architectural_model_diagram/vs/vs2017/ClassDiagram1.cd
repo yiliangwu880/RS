@@ -133,5 +133,19 @@
       <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="redis_client" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="hiredis" Collapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\my\RS\architectural_model_diagram\main.h</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Microsoft YaHei UI" Size="9" />
 </ClassDiagram>

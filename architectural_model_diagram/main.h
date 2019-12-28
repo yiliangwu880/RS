@@ -6,6 +6,8 @@ class boost {};
 class protobuf3 {};
 class mysql_connector : public boost{};
 class libevent {};
+class hiredis {};
+class redis_client : public hiredis, public libevent {};
 class LuaBridge {};
 class lua {};
 
@@ -27,7 +29,7 @@ class mf_driver : public mf_proto, public libevent_cpp {};
 class mf_svr : public libevent_cpp, public svr_util, public mf_proto {};
 
 ////////////////////////////////////////////////
-class db_proxy_svr : public libevent_cpp, public svr_util, public protobuf3, public mysql_connector {};
+class db_proxy_svr : public libevent_cpp, public svr_util, public protobuf3, public mysql_connector, public redis_client {};
 class db_driver : public libevent_cpp, public svr_util, public protobuf3 {};
 
 ////////////////////////////////////////////////
