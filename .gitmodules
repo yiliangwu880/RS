@@ -23,3 +23,6 @@
 [submodule "com/cpp_lua_mgr"]
 	path = com/cpp_lua_mgr
 	url = https://github.com/yiliangwu880/cpp_lua_mgr.git
+[submodule "com/redis_client"]
+	path = com/redis_client
+	url = https://github.com/yiliangwu880/redis_client.git
