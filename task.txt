@@ -1,5 +1,6 @@
 
 
+
 CppUtility全部搬运到 svr_util, 和app_util
 
 app_util : public svr_util, libcevent_cpp, acc_driver, mf_driver
@@ -12,3 +13,5 @@ com_server
 excel to data. cpp 解析代码。
 
 排行榜，库或者服务器
+
+修改DB表结构：服务器进程启动检查protobuf和DB表。发现不一样就更新表结构
