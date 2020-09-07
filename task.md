@@ -1,5 +1,8 @@
 
+# access_svr 消息缓存
+    需求: 例如切换场景过程中，zone1->zone2. 过程中zone1 删掉角色状态，zone2还没准备号角色状态，这时不能处理客户端消息。就需要access_svr缓存消息了。_ 
 
+# old
 LOG_DEBUG_SEC //一秒最多打印一次的日志
 
 配置定义数据格式，内存数据结构，db结构，网络协议结构自动化统一生成。 
@@ -23,15 +26,18 @@ excel to data. cpp 解析代码。
 
 修改DB表结构：服务器进程启动检查protobuf和DB表。发现不一样就更新表结构
 
-服务器内部网络消息协议，都是C++，就用最简单的C结构体二进制格式。
+
+
+# 服务器内部网络消息协议，都是C++，就用最简单的C结构体二进制格式。
 {
     一些改进：
         每个msg都有msg.cmdid const 字段存放消息号。
         进程从网络接收包，读取消息号，获取消息体对象，初始化。分发消息体抽象对象给用户使用。
     参考代码：
+```c++
         struct BaseMsg{
-            BaseMsg(...)
-            const uint32 cmd_id;
+            BaseMsg(int cmdId) :m_cmdId(cmdId){}
+            const uint32 m_cmdId;
         }
         struct MyMsg : public BaseMsg
         {
@@ -62,6 +68,7 @@ excel to data. cpp 解析代码。
            if(pMsg->cmdid != msg.cmd_id) return null;
            return pMsg;
         }
+```
     用户加新消息需要做：
         定义cmdid。
         消息体定义，加入cmdid关联。
