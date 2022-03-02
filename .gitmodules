@@ -26,3 +26,6 @@
 [submodule "com/redis_client"]
 	path = com/redis_client
 	url = https://github.com/yiliangwu880/redis_client.git
+[submodule "com/CppDbProxy"]
+	path = com/CppDbProxy
+	url = https://github.com/yiliangwu880/CppDbProxy.git
